@@ -4,13 +4,14 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Calculator_functionsTest {
-    public static Calculator_functions obj;
+    public static Calculator_functions CalcOperations;
 
     @BeforeClass
-    public static void setup(){obj = new Calculator_functions();}
+    public static void setup(){CalcOperations = new Calculator_functions();}
 
     @Test
-    public void test_add(){
-        assertEquals(10,obj.add(4,5));
+    public void test_multiply(){
+        assertEquals(20,CalcOperations.multiply(4,5));
     }
+
 }
