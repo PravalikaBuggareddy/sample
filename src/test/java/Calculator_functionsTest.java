@@ -11,7 +11,7 @@ public class Calculator_functionsTest {
 
     @Test
     public void test_multiply(){
-        assertEquals(20,CalcOperations.multiply(4,5));
+        assertEquals(20,CalcOperations.multiply(5,5));
     }
 
 }
