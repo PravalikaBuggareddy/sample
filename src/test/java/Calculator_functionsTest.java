@@ -8,7 +8,7 @@ public class Calculator_functionsTest {
 
     @BeforeClass
     public static void setup(){CalcOperations = new Calculator_functions();}
-     //Test case by Pravalika
+    //Test case by Pravalika
     @Test
     public void test_multiply(){
         assertEquals(25,CalcOperations.multiply(5,5));
