@@ -8,10 +8,10 @@ public class Calculator_functionsTest {
 
     @BeforeClass
     public static void setup(){CalcOperations = new Calculator_functions();}
-
+    //Test case by Pravalika
     @Test
     public void test_multiply(){
-        assertEquals(20,CalcOperations.multiply(5,5));
+        assertEquals(25,CalcOperations.multiply(5,5));
     }
 
 }

@@ -2,7 +2,7 @@ import java.lang.Math;
 public class Calculator_functions {
 
     public int multiply(int a,int b){
-        return (a*b);
+        return (0);
     }
     public double sqrt(double a){
         return Math.sqrt(a);
