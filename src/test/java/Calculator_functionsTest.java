@@ -15,4 +15,5 @@ public class Calculator_functionsTest {
         assertEquals(25,CalcOperations.multiply(5,5));
     }
 
+
 }

@@ -1,4 +1,5 @@
 import java.lang.Math;
+
 public class Calculator_functions {
     //Calculator methods
     public int multiply(int a,int b){
