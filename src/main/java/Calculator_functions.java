@@ -6,7 +6,7 @@ public class Calculator_functions {
         return (a*b);
     }
     public double sqrt(double a){
-        return Math.sqrt(a);
+        return 0;
     }
 
     public double cubeRoot(double a)
