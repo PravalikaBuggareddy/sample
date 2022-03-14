@@ -15,5 +15,10 @@ public class Calculator_functionsTest {
         assertEquals(25,CalcOperations.multiply(5,5));
     }
 
+    //Test case by Rohith
+
+    @Test
+    public void test_division() { assertEquals(24, CalcOperations.division(5,6)); }
+
 
 }
