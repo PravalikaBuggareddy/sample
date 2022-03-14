@@ -19,8 +19,7 @@ public class Calculator_functionsTest {
 
     @Test
     public void test_division() { assertEquals(2, CalcOperations.division(12,6)); }
-    // Test case by Ibrahim
+    // Test case passed by Ibrahim
     @Test
-    public void test_sqrt() { assertEquals(3.0, CalcOperations.sqrt(9.0),0.001); } //(9.0),0.001);
-
+    public void test_sqrt() { assertEquals(3.0, CalcOperations.sqrt(9.0),0.001); } 
 }
