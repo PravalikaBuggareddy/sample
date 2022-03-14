@@ -16,7 +16,7 @@ public class Calculator_functionsTest {
     }
     //Test case by kavya
     @Test
-    public void test_cuberoot(){assertEquals(8.0,CalcOperations.cubeRoot(2.0),0.001);}
+    public void test_cuberoot(){assertEquals(2.0,CalcOperations.cubeRoot(8.0),0.001);}
     //Test case by Rohith
 
     @Test
