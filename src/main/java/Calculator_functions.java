@@ -2,17 +2,19 @@ import java.lang.Math;
 public class Calculator_functions {
     //Calculator methods
     public int multiply(int a,int b){
-        return (0);
+        return (a*b);
     }
     public double sqrt(double a){
         return Math.sqrt(a);
     }
 
-    public double cubeRoot(double a){
+    public double cubeRoot(double a)
+    {
         return Math.cbrt(a);
     }
 
-    public int division(int a, int b){
+    public int division(int a, int b)
+    {
        return (a/b);
     }
 
