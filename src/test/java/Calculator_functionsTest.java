@@ -14,7 +14,9 @@ public class Calculator_functionsTest {
     {
         assertEquals(25,CalcOperations.multiply(5,5));
     }
-
+    //Test case by kavya
+    @Test
+    public void test_cuberoot(){assertEquals(8,CalcOperations.cubeRoot(2.0),0.001);}
     //Test case by Rohith
 
     @Test
