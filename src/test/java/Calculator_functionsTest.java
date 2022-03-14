@@ -24,4 +24,16 @@ public class Calculator_functionsTest {
     // Test case passed by Ibrahim
     @Test
     public void test_sqrt() { assertEquals(3.0, CalcOperations.sqrt(9.0),0.001); }
+
+    //Integration testing
+    public void test_integration1()
+    {
+        assertEquals(6.0,CalcOperations.multiply(CalcOperations.sqrt(9.0),CalcOperations.cubeRoot(8.0)),0.001);
+    }
+
+    public void test_integration2()
+    {
+        assertEquals(2.0,CalcOperations.division(CalcOperations.sqrt(16.0),CalcOperations.cubeRoot(8.0)),0.001);
+    }
 }
+
