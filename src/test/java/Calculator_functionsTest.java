@@ -26,7 +26,7 @@ public class Calculator_functionsTest {
     @Test
     public void test_sqrt() { assertEquals(3.0, CalcOperations.sqrt(9.0),0.001); }
 
-    //Integration testing
+    //Integration  testing
     @Test
     public void test_integration1()
     {
