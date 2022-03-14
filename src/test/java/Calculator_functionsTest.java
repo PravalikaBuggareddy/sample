@@ -27,11 +27,12 @@ public class Calculator_functionsTest {
     public void test_sqrt() { assertEquals(3.0, CalcOperations.sqrt(9.0),0.001); }
 
     //Integration testing
+    @Test
     public void test_integration1()
     {
         assertEquals(6.0,CalcOperations.multiply(CalcOperations.sqrt(9.0),CalcOperations.cubeRoot(8.0)),0.001);
     }
-
+    @Test
     public void test_integration2()
     {
         assertEquals(2.0,CalcOperations.division(CalcOperations.sqrt(16.0),CalcOperations.cubeRoot(8.0)),0.001);
