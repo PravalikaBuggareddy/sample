@@ -12,7 +12,7 @@ public class Calculator_functionsTest {
     @Test
     public void test_multiply()
     {
-        assertEquals(25,CalcOperations.multiply(5,5));
+        assertEquals(15,CalcOperations.multiply(5,5));
     }
     //Test case by kavya
     @Test
