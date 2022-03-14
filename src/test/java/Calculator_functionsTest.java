@@ -18,6 +18,6 @@ public class Calculator_functionsTest {
     //Test case by Rohith
 
     @Test
-    public void test_division() { assertEquals(24, CalcOperations.division(5,6)); }
+    public void test_division() { assertEquals(2, CalcOperations.division(12,6)); }
 
 }
