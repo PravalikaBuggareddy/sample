@@ -20,5 +20,4 @@ public class Calculator_functionsTest {
     @Test
     public void test_division() { assertEquals(24, CalcOperations.division(5,6)); }
 
-
 }
