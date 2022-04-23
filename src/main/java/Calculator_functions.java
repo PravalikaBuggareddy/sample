@@ -14,13 +14,13 @@ public class Calculator_functions {
         return Math.cbrt(a);
     }
 
-    public int division(int c, int b)
+    public int division(int a, int b)
     {
        return (a/b);
     }
     public double division(double a, double b)
     {
-        return (a/b);
+        return (0);
     }
     public double multiply(double a,double b)
     {
