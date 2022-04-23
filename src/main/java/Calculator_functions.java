@@ -14,7 +14,7 @@ public class Calculator_functions {
         return Math.cbrt(a);
     }
 
-    public int division(int a, int b)
+    public int division(int c, int b)
     {
        return (a/b);
     }
